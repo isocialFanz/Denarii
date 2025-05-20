@@ -1,12 +1,11 @@
 {
-  "name": "My Project Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
-  "postCreateCommand": "npm install && npm install --save-dev eslint prettier jest",
+  "name": "Denarii Tokenomics Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "postCreateCommand": "pip install -r requirements.txt",
   "customizations": {
     "vscode": {
       "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "ms-python.python"
       ]
     }
   }
