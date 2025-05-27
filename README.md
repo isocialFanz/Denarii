@@ -33,3 +33,14 @@ npm run test     # Run Jest tests
 ---
 
 Say the word and I’ll drop that into your project right now as a fully formatted `README.md`.
+
+## 📈 Tokenomics Simulation
+
+Run the Python simulation and generate a text report:
+
+```bash
+bash run.sh
+```
+
+The script outputs a simple simulation, performs risk analysis (using OpenAI if an API key is available),
+and writes the combined results to `report.txt`.
